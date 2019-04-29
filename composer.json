@@ -11,7 +11,6 @@
   ],
   "require": {
     "graphaware/neo4j-php-client": "4.8.5",
-    "ext-mcrypt": "*",
     "ext-json": "*"
   }
 }
