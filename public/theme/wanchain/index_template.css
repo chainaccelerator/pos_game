@@ -1,0 +1,138 @@
+:root {
+    --main-bg-color: {
+        main_bg_color
+    };
+}
+
+body {
+    background-image: url("{body_background_image}");
+    font-family: "{body_font_family}";
+}
+
+div.main {
+
+background-color: {
+    div_main_background_color
+}
+
+;
+}
+input[type=text], [type=password] {
+
+box-shadow:
+
+0
+0
+5
+px {
+    input_type_text_type_password_box_shadow_color
+}
+
+;
+border-color: {
+    input_type_text_type_password_border_color
+}
+
+;
+color: {
+    input_type_text_type_password_color
+}
+
+;
+}
+label {
+
+color: {
+    label_color
+}
+
+;
+}
+#login, #register {
+
+background: {
+    login_register_background
+}
+
+;
+border-color: {
+    login_register_border_color
+}
+
+;
+text-shadow:
+
+0
+px
+
+1
+px
+
+0
+px {
+    login_register_text_shadow_color
+}
+
+;
+}
+#login:hover, #login:hover {
+
+background: {
+    login_hover_login_hover_background
+}
+
+;
+}
+#aside {
+
+background-color: {
+    aside_background_color
+}
+
+;
+}
+#aside, #aside h3, #aside h4 {
+
+color: {
+    aside_aside_h3_aside
+}
+
+;
+}
+#header {
+
+background-color: {
+    header_background_color
+}
+
+;
+}
+#footer {
+
+background-color: {
+    footer_background_color
+}
+
+;
+color: {
+    footer_color
+}
+
+;
+}
+.accordion {
+
+color: {
+    accordion_color
+}
+
+;
+}
+.accordion:after {
+
+color: {
+    accordion_after_color
+}
+
+;
+}

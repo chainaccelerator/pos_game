@@ -1,0 +1,338 @@
+{
+  "conf": {
+    "company": "Wanchain",
+    "lang": "en"
+  },
+  "graph": {
+    "name": "neo4j",
+    "password": "neo4j",
+    "host": "localhost",
+    "port_default": 7474,
+    "port_bolt": 7687
+  },
+  "game_text": {
+    "lang_list": [
+      "en"
+    ],
+    "list": [
+      {
+        "name": "epoch",
+        "en": "Epoch"
+      },
+      {
+        "name": "block",
+        "en": "Km² expander"
+      },
+      {
+        "name": "holder",
+        "en": "Product Unit"
+      },
+      {
+        "name": "staker",
+        "en": "Spaceship Units"
+      },
+      {
+        "name": "seed_word",
+        "en": "Planet name"
+      },
+      {
+        "name": "token",
+        "en": "1 Km²"
+      },
+      {
+        "name": "private_key",
+        "en": "Magic Key"
+      },
+      {
+        "name": "reward",
+        "en": "Attack/Defense pts"
+      },
+      {
+        "name": "delegate",
+        "en": "Protection"
+      },
+      {
+        "name": "deposit",
+        "en": "Km² of exploitation"
+      },
+      {
+        "name": "account",
+        "en": "account"
+      },
+      {
+        "name": "team",
+        "en": "team"
+      },
+      {
+        "name": "last",
+        "en": "last"
+      },
+      {
+        "name": "node",
+        "en": "Units"
+      },
+      {
+        "name": "cyberattack",
+        "en": "Spaceship attack"
+      },
+      {
+        "name": "project_address",
+        "en": "Master spaceship"
+      },
+      {
+        "name": "top_node_token",
+        "en": "Spaceships"
+      },
+      {
+        "name": "top_node_cyberattack_out",
+        "en": "Attacks"
+      },
+      {
+        "name": "top_node_cyberattack_in",
+        "en": "Defenses"
+      },
+      {
+        "name": "top_node_planet",
+        "en": "Planets"
+      },
+      {
+        "name": "top_team_token",
+        "en": "WANs"
+      },
+      {
+        "name": "top_team_cyberattack_out",
+        "en": "Attacks"
+      },
+      {
+        "name": "top_team_cyberattack_in",
+        "en": "Defenses"
+      },
+      {
+        "name": "last_node",
+        "en": "Spaceships"
+      },
+      {
+        "name": "last_planet",
+        "en": "Planets"
+      },
+      {
+        "name": "last_key",
+        "en": "Magics keys"
+      },
+      {
+        "name": "last_block",
+        "en": "Expenders"
+      }
+    ]
+  },
+  "game_style": {
+    "theme_dir": "theme/wanchain/",
+    "theme_name": "wanchain",
+    "title": "Wanchain Galaxy",
+    "title_leet": "W4NCH41N 6414XY",
+    "force": true,
+    "list": [
+      {
+        "name": "main_bg_color",
+        "value": "brown"
+      },
+      {
+        "name": "body_background_image",
+        "value": "background1.jpg"
+      },
+      {
+        "name": "body_font_family",
+        "value": "Droid Sans"
+      },
+      {
+        "name": "div_main_background_color",
+        "value": "rgba(5, 170, 255, 0.65)"
+      },
+      {
+        "name": "input_type_text_type_password_box_shadow_color",
+        "value": "#00F5FF"
+      },
+      {
+        "name": "input_type_text_type_password_border_color",
+        "value": "#00F5FF"
+      },
+      {
+        "name": "input_type_text_type_password_color",
+        "value": "#4f4f4f"
+      },
+      {
+        "name": "label_color",
+        "value": "#C0D0D8"
+      },
+      {
+        "name": "login_register_background",
+        "value": "linear_gradient(#22abe9 5%, #36caf0 100%)"
+      },
+      {
+        "name": "login_register_border_color",
+        "value": "#0F799E"
+      },
+      {
+        "name": "login_register_text_shadow_color",
+        "value": "#13506D"
+      },
+      {
+        "name": "login_hover_login_hover_background",
+        "value": "linear_gradient(#36caf0 5%, #22abe9 100%)"
+      },
+      {
+        "name": "aside_background_color",
+        "value": "#13506D"
+      },
+      {
+        "name": "aside_aside_h3_aside_h4_color",
+        "value": "#C0D0D8"
+      },
+      {
+        "name": "header_background_color",
+        "value": "#13506D"
+      },
+      {
+        "name": "footer_background_color",
+        "value": "#13506D"
+      },
+      {
+        "name": "footer_color",
+        "value": "#C0D0D8"
+      },
+      {
+        "name": "accordion_color",
+        "value": "#FBFCFD"
+      },
+      {
+        "name": "accordion_after_color",
+        "value": "#FBFCFD"
+      }
+    ]
+  },
+  "game_score": {
+    "type_list": [
+      {
+        "name": "node"
+      },
+      {
+        "name": "team"
+      },
+      {
+        "name": "last"
+      }
+    ],
+    "list": [
+      {
+        "name": "top_node_token",
+        "type": "node",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_node_cyberattack_out",
+        "type": "node",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_node_cyberattack_in",
+        "type": "node",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_node_planet",
+        "type": "node",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_team_token",
+        "type": "team",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_team_cyberattack_out",
+        "type": "team",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "top_team_cyberattack_in",
+        "type": "team",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "last_node",
+        "type": "last",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "last_planet",
+        "type": "last",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "last_key",
+        "type": "last",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      },
+      {
+        "name": "last_block",
+        "type": "last",
+        "state": true,
+        "limit": 3,
+        "fields": [
+          "avatar",
+          "score"
+        ]
+      }
+    ]
+  }
+}
